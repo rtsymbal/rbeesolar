@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad32bd1-9b8e-4270-9818-6ce586c89d2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rbeesolar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,17 +51,62 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1342436430">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="java" value="327" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="327" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="-184">
+              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
               <folding>
-                <element signature="e#5304#5305#0" expanded="true" />
-                <element signature="e#5333#5334#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,14 +122,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/TestRbeesolar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/Connect.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/Connection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java" />
       </list>
     </option>
   </component>
@@ -103,13 +155,15 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="100" />
     <option name="y" value="35" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -152,12 +206,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,6 +244,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RbeesolarTest.correctDataLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rbeesolar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rbeesolar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rbeesolar" />
+      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
+      <option name="METHOD_NAME" value="correctDataLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RbeesolarTest.customerEtitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rbeesolar" />
       <extension name="coverage">
@@ -197,22 +271,6 @@
       <option name="PACKAGE_NAME" value="com.rbeesolar" />
       <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
       <option name="METHOD_NAME" value="customerEtitTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RbeesolarTest.incorrectImageCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rbeesolar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rbeesolar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rbeesolar" />
-      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
-      <option name="METHOD_NAME" value="incorrectImageCodeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,18 +310,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RbeesolarTest" />
-      <item itemvalue="JUnit.RbeesolarTest.incorrectImageCodeTest" />
       <item itemvalue="JUnit.RbeesolarTest.userSearchTest" />
       <item itemvalue="JUnit.RbeesolarTest.customerEtitTest" />
       <item itemvalue="JUnit.RbeesolarTest.languageChangeTest" />
+      <item itemvalue="JUnit.RbeesolarTest.correctDataLoginTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RbeesolarTest" />
+        <item itemvalue="JUnit.RbeesolarTest.correctDataLoginTest" />
         <item itemvalue="JUnit.RbeesolarTest.languageChangeTest" />
         <item itemvalue="JUnit.RbeesolarTest.customerEtitTest" />
         <item itemvalue="JUnit.RbeesolarTest.userSearchTest" />
-        <item itemvalue="JUnit.RbeesolarTest.incorrectImageCodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -281,27 +339,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 10m 53s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 11m 48s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 12m 04s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 12m 49s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 13m 16s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 13m 42s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 14m 26s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 14m 47s.xml">
       <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
     </history-entry>
@@ -311,15 +348,37 @@
     <history-entry file="RbeesolarTest - 2018.11.03 at 16h 56m 14s.xml">
       <configuration name="RbeesolarTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RbeesolarTest - 2018.11.13 at 11h 03m 43s.xml">
+      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest - 2018.11.13 at 11h 06m 26s.xml">
+      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest - 2018.11.13 at 11h 31m 58s.xml">
+      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest - 2018.11.13 at 15h 30m 43s.xml">
+      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest - 2018.11.16 at 13h 13m 09s.xml">
+      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest_correctDataLoginTest - 2018.11.16 at 14h 08m 40s.xml">
+      <configuration name="RbeesolarTest.correctDataLoginTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest - 2018.11.16 at 14h 29m 22s.xml">
+      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="DB Browser" order="4" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299566" />
@@ -331,6 +390,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299566" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,23 +406,106 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/Connection.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#5304#5305#0" expanded="true" />
-            <element signature="e#5333#5334#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-184">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rbeesolar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

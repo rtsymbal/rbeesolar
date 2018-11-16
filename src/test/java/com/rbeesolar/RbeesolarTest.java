@@ -20,7 +20,7 @@ public class RbeesolarTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Development/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/rtsymbal/Documents/Development/chromedriver.exe");
         driver = new ChromeDriver();
     }
     @Test
@@ -28,7 +28,7 @@ public class RbeesolarTest {
         driver.get("https://work.pvmeter.com?locale=en_GB");
         driver.findElement(By.name("j_username")).sendKeys(producerLogin);
         driver.findElement(By.name("j_password")).sendKeys(producerPassword);
-        driver.findElement(By.cssSelector("[class = classBtn]")).click();
+        driver.findElement(By.className("classBtn")).click();
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         String title = driver.getTitle();
