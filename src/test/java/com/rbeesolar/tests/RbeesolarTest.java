@@ -1,16 +1,22 @@
-package com.rbeesolar;
+package com.rbeesolar.tests;
 
+import com.rbeesolar.pages.MainPage;
+import com.rbeesolar.pages.SitePages;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.CoreMatchers.containsString;
 
 public class RbeesolarTest {
-    private WebDriver driver;
+    WebDriver driver;
+    SitePages webSite;
+    WebDriverWait wait;
+
     private String installerLogin = "demo";
     private String installerPassword = "demo69550";
     private String producerLogin = "maurice@rbee.fr";
@@ -22,13 +28,13 @@ public class RbeesolarTest {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/Users/rtsymbal/Documents/Development/chromedriver.exe");
         driver = new ChromeDriver();
+        webSite = new SitePages(driver);
+        wait = new WebDriverWait(driver, 30, 500);
+        driver.get("https://work.pvmeter.com?locale=en_GB");
     }
     @Test
     public void correctDataLoginTest() {
-        driver.get("https://work.pvmeter.com?locale=en_GB");
-        driver.findElement(By.name("j_username")).sendKeys(producerLogin);
-        driver.findElement(By.name("j_password")).sendKeys(producerPassword);
-        driver.findElement(By.className("classBtn")).click();
+        webSite.mainPage().loginToPage(producerLogin, producerPassword);
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         String title = driver.getTitle();
@@ -38,21 +44,18 @@ public class RbeesolarTest {
 
     @Test
     public void incorrectDataLoginTest() {
-        driver.get("https://work.pvmeter.com?locale=en_GB");
-        driver.findElement(By.name("j_username")).sendKeys(wrongLogin);
-        driver.findElement(By.name("j_password")).sendKeys(wrongPassword);
-        driver.findElement(By.cssSelector("[class = classBtn]")).click();
+        webSite.mainPage().loginToPage(wrongLogin, wrongPassword);
+
         //error msn should appeared
         Assert.assertThat(driver.findElement(By.id("error")).getText(), containsString("Incorrect login or password"));
     }
 
     @Test
     public void incorrectImageCodeTest() {
-        driver.get("https://work.pvmeter.com?locale=en_GB");
-        driver.findElement(By.linkText("Password lost")).click();
-        driver.findElement(By.name("login")).sendKeys(producerLogin);
-        driver.findElement(By.name("captcha_code")).sendKeys(wrongPassword);
-        driver.findElement(By.cssSelector("[class = classBtn]")).click();
+        webSite.mainPage().forgotPassword.click();
+        webSite.mainPage().forgotPassLoginField.sendKeys(producerLogin);
+        webSite.mainPage().imageCode.sendKeys(wrongPassword);
+        webSite.mainPage().loginButton.click();
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         //error message should appears
@@ -61,10 +64,7 @@ public class RbeesolarTest {
 
     @Test
     public void userSearchTest() {
-        driver.get("https://work.pvmeter.com?locale=en_GB");
-        driver.findElement(By.name("j_username")).sendKeys(installerLogin);
-        driver.findElement(By.name("j_password")).sendKeys(installerPassword);
-        driver.findElement(By.className("classBtn")).click();
+        webSite.mainPage().loginToPage(installerLogin, installerPassword);
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         //make sure that more then one elements are existing
@@ -80,10 +80,7 @@ public class RbeesolarTest {
 
     @Test
     public void customerEtitTest() {
-        driver.get("https://work.pvmeter.com?locale=en_GB");
-        driver.findElement(By.name("j_username")).sendKeys(installerLogin);
-        driver.findElement(By.name("j_password")).sendKeys(installerPassword);
-        driver.findElement(By.className("classBtn")).click();
+        webSite.mainPage().loginToPage(installerLogin, installerPassword);
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         driver.findElement(By.cssSelector(".GPIT3C4CF-:nth-child(1)")).click();
@@ -96,10 +93,7 @@ public class RbeesolarTest {
     @Test
     public void languageChangeTest() {
 
-        driver.get("https://work.pvmeter.com?locale=en_GB");
-        driver.findElement(By.name("j_username")).sendKeys(producerLogin);
-        driver.findElement(By.name("j_password")).sendKeys(producerPassword);
-        driver.findElement(By.cssSelector("[class = classBtn]")).click();
+        webSite.mainPage().loginToPage(producerLogin, producerPassword);
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         driver.findElement(By.id("gwt-debug-LanguageChooserWidgetMainLayout")).click();

@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad32bd1-9b8e-4270-9818-6ce586c89d2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/FirstPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SecondPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rbeesolar.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarMainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +19,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/rbeesolar$RbeesolarTest.ic" NAME="RbeesolarTest Coverage Results" MODIFIED="1542626706654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rbeesolar.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-660347962">
@@ -64,26 +73,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="327" />
+          <entry key="java" value="802" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="327" />
+          <entry key="JAVA" value="802" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="6" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -91,22 +100,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="690">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-115">
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+              <folding>
+                <element signature="e#5342#5343#0" expanded="true" />
+                <element signature="e#5371#5372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +158,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/Connect.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/Connection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/RbeesolarMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java" />
       </list>
     </option>
   </component>
@@ -202,6 +231,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rbeesolar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rbeesolar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbeesolar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbeesolar" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rbeesolar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rbeesolar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rbeesolar" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,12 +281,12 @@
       <module name="rbeesolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rbeesolar.*" />
+          <option name="PATTERN" value="com.rbeesolar.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rbeesolar" />
-      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
+      <option name="PACKAGE_NAME" value="com.rbeesolar.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.tests.RbeesolarTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,45 +295,45 @@
       <module name="rbeesolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rbeesolar.*" />
+          <option name="PATTERN" value="com.rbeesolar.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rbeesolar" />
-      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
+      <option name="PACKAGE_NAME" value="com.rbeesolar.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.tests.RbeesolarTest" />
       <option name="METHOD_NAME" value="correctDataLoginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RbeesolarTest.customerEtitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RbeesolarTest.incorrectDataLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rbeesolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rbeesolar.*" />
+          <option name="PATTERN" value="com.rbeesolar.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rbeesolar" />
-      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
-      <option name="METHOD_NAME" value="customerEtitTest" />
+      <option name="PACKAGE_NAME" value="com.rbeesolar.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.tests.RbeesolarTest" />
+      <option name="METHOD_NAME" value="incorrectDataLoginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RbeesolarTest.languageChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RbeesolarTest.incorrectImageCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rbeesolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rbeesolar.*" />
+          <option name="PATTERN" value="com.rbeesolar.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rbeesolar" />
-      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
-      <option name="METHOD_NAME" value="languageChangeTest" />
+      <option name="PACKAGE_NAME" value="com.rbeesolar.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.tests.RbeesolarTest" />
+      <option name="METHOD_NAME" value="incorrectImageCodeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -296,12 +343,12 @@
       <module name="rbeesolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rbeesolar.*" />
+          <option name="PATTERN" value="com.rbeesolar.pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rbeesolar" />
-      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.RbeesolarTest" />
+      <option name="PACKAGE_NAME" value="com.rbeesolar.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.rbeesolar.tests.RbeesolarTest" />
       <option name="METHOD_NAME" value="userSearchTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -310,18 +357,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RbeesolarTest" />
-      <item itemvalue="JUnit.RbeesolarTest.userSearchTest" />
-      <item itemvalue="JUnit.RbeesolarTest.customerEtitTest" />
-      <item itemvalue="JUnit.RbeesolarTest.languageChangeTest" />
       <item itemvalue="JUnit.RbeesolarTest.correctDataLoginTest" />
+      <item itemvalue="JUnit.RbeesolarTest.incorrectDataLoginTest" />
+      <item itemvalue="JUnit.RbeesolarTest.userSearchTest" />
+      <item itemvalue="JUnit.RbeesolarTest.incorrectImageCodeTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RbeesolarTest" />
-        <item itemvalue="JUnit.RbeesolarTest.correctDataLoginTest" />
-        <item itemvalue="JUnit.RbeesolarTest.languageChangeTest" />
-        <item itemvalue="JUnit.RbeesolarTest.customerEtitTest" />
+        <item itemvalue="JUnit.RbeesolarTest.incorrectImageCodeTest" />
         <item itemvalue="JUnit.RbeesolarTest.userSearchTest" />
+        <item itemvalue="JUnit.RbeesolarTest.correctDataLoginTest" />
+        <item itemvalue="JUnit.RbeesolarTest.incorrectDataLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -339,34 +386,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RbeesolarTest_languageChangeTest - 2018.10.30 at 00h 14m 47s.xml">
-      <configuration name="RbeesolarTest.languageChangeTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 12h 01m 49s.xml">
+      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.10.30 at 00h 16m 14s.xml">
+    <history-entry file="RbeesolarTest - 2018.11.19 at 12h 08m 24s.xml">
       <configuration name="RbeesolarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.03 at 16h 56m 14s.xml">
+    <history-entry file="RbeesolarTest - 2018.11.19 at 12h 23m 04s.xml">
       <configuration name="RbeesolarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.13 at 11h 03m 43s.xml">
+    <history-entry file="RbeesolarTest - 2018.11.19 at 12h 25m 44s.xml">
       <configuration name="RbeesolarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.13 at 11h 06m 26s.xml">
-      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.19 at 12h 27m 27s.xml">
+      <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.13 at 11h 31m 58s.xml">
-      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.19 at 14h 40m 50s.xml">
+      <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.13 at 15h 30m 43s.xml">
-      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 14h 41m 03s.xml">
+      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.16 at 13h 13m 09s.xml">
-      <configuration name="RbeesolarTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 14h 43m 37s.xml">
+      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest_correctDataLoginTest - 2018.11.16 at 14h 08m 40s.xml">
-      <configuration name="RbeesolarTest.correctDataLoginTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 15h 03m 32s.xml">
+      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.16 at 14h 29m 22s.xml">
+    <history-entry file="RbeesolarTest - 2018.11.19 at 15h 09m 10s.xml">
       <configuration name="RbeesolarTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -381,7 +428,7 @@
       <window_info id="DB Browser" order="4" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942113" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,6 +438,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299566" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,20 +462,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state relative-caret-position="690">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/FirstPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SecondPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="e#5342#5343#0" expanded="true" />
+            <element signature="e#5371#5372#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
