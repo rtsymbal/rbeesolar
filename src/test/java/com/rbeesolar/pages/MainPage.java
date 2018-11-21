@@ -8,11 +8,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPage {
     private WebDriver driver;
-    private WebDriverWait wait;
 
     public MainPage(WebDriver webDriver) {
         driver = webDriver;
-        wait = new WebDriverWait(driver, 30);
 
         PageFactory.initElements(driver, this);
     }

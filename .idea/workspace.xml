@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad32bd1-9b8e-4270-9818-6ce586c89d2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/FirstPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SecondPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarMainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarMainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/rbeesolar/RbeesolarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,13 +68,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="802" />
+          <entry key="java" value="932" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="802" />
+          <entry key="JAVA" value="932" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
@@ -103,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="299">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +110,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="46">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="-621">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="e#5342#5343#0" expanded="true" />
                 <element signature="e#5371#5372#0" expanded="true" />
@@ -162,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/RbeesolarMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/RbeesolarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java" />
       </list>
     </option>
@@ -281,7 +277,7 @@
       <module name="rbeesolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rbeesolar.pages.*" />
+          <option name="PATTERN" value="com.rbeesolar.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,17 +303,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RbeesolarTest.incorrectDataLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RbeesolarTest.customerEtitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rbeesolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rbeesolar.pages.*" />
+          <option name="PATTERN" value="com.rbeesolar.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rbeesolar.tests" />
       <option name="MAIN_CLASS_NAME" value="com.rbeesolar.tests.RbeesolarTest" />
-      <option name="METHOD_NAME" value="incorrectDataLoginTest" />
+      <option name="METHOD_NAME" value="customerEtitTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -356,19 +352,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RbeesolarTest" />
       <item itemvalue="JUnit.RbeesolarTest.correctDataLoginTest" />
-      <item itemvalue="JUnit.RbeesolarTest.incorrectDataLoginTest" />
       <item itemvalue="JUnit.RbeesolarTest.userSearchTest" />
       <item itemvalue="JUnit.RbeesolarTest.incorrectImageCodeTest" />
+      <item itemvalue="JUnit.RbeesolarTest.customerEtitTest" />
+      <item itemvalue="JUnit.RbeesolarTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RbeesolarTest" />
-        <item itemvalue="JUnit.RbeesolarTest.incorrectImageCodeTest" />
+        <item itemvalue="JUnit.RbeesolarTest.customerEtitTest" />
         <item itemvalue="JUnit.RbeesolarTest.userSearchTest" />
         <item itemvalue="JUnit.RbeesolarTest.correctDataLoginTest" />
-        <item itemvalue="JUnit.RbeesolarTest.incorrectDataLoginTest" />
+        <item itemvalue="JUnit.RbeesolarTest.incorrectImageCodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,39 +382,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 12h 01m 49s.xml">
-      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.19 at 12h 08m 24s.xml">
-      <configuration name="RbeesolarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.19 at 12h 23m 04s.xml">
-      <configuration name="RbeesolarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.19 at 12h 25m 44s.xml">
-      <configuration name="RbeesolarTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.19 at 12h 27m 27s.xml">
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.20 at 12h 48m 54s.xml">
       <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.19 at 14h 40m 50s.xml">
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.20 at 12h 50m 51s.xml">
       <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 14h 41m 03s.xml">
-      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.20 at 12h 51m 37s.xml">
+      <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 14h 43m 37s.xml">
-      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.20 at 12h 52m 00s.xml">
+      <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest_incorrectImageCodeTest - 2018.11.19 at 15h 03m 32s.xml">
-      <configuration name="RbeesolarTest.incorrectImageCodeTest" configurationId="JUnit" />
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.20 at 12h 52m 49s.xml">
+      <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RbeesolarTest - 2018.11.19 at 15h 09m 10s.xml">
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.20 at 12h 54m 32s.xml">
+      <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest_userSearchTest - 2018.11.20 at 12h 55m 14s.xml">
+      <configuration name="RbeesolarTest.userSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest_customerEtitTest - 2018.11.20 at 13h 13m 07s.xml">
+      <configuration name="RbeesolarTest.customerEtitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest_customerEtitTest - 2018.11.20 at 13h 16m 18s.xml">
+      <configuration name="RbeesolarTest.customerEtitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RbeesolarTest - 2018.11.20 at 13h 20m 59s.xml">
       <configuration name="RbeesolarTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
@@ -462,16 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/FirstPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -486,21 +472,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/pages/SitePages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="46">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/rbeesolar/tests/RbeesolarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="-621">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="e#5342#5343#0" expanded="true" />
             <element signature="e#5371#5372#0" expanded="true" />

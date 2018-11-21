@@ -1,16 +1,18 @@
 package com.rbeesolar.tests;
 
-import com.rbeesolar.pages.MainPage;
 import com.rbeesolar.pages.SitePages;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.CoreMatchers.containsString;
+import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
 public class RbeesolarTest {
     WebDriver driver;
@@ -35,19 +37,15 @@ public class RbeesolarTest {
     @Test
     public void correctDataLoginTest() {
         webSite.mainPage().loginToPage(producerLogin, producerPassword);
-
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-        String title = driver.getTitle();
         //Verifying login successful by checking application page title
-        Assert.assertEquals("- Photovoltaic Monitoring", title);
+        wait.until(ExpectedConditions.titleContains("- Photovoltaic Monitoring"));
     }
 
     @Test
     public void incorrectDataLoginTest() {
         webSite.mainPage().loginToPage(wrongLogin, wrongPassword);
-
         //error msn should appeared
-        Assert.assertThat(driver.findElement(By.id("error")).getText(), containsString("Incorrect login or password"));
+        wait.until(textToBePresentInElementLocated(By.id("error"), "Incorrect login or password"));
     }
 
     @Test
@@ -56,38 +54,28 @@ public class RbeesolarTest {
         webSite.mainPage().forgotPassLoginField.sendKeys(producerLogin);
         webSite.mainPage().imageCode.sendKeys(wrongPassword);
         webSite.mainPage().loginButton.click();
-
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         //error message should appears
-        Assert.assertThat(driver.findElement(By.id("error")).getText(), containsString("You have input an incorrect image code!"));
+        wait.until(textToBePresentInElementLocated(By.id("error"), "You have input an incorrect image code!"));
     }
 
     @Test
     public void userSearchTest() {
         webSite.mainPage().loginToPage(installerLogin, installerPassword);
-
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-        //make sure that more then one elements are existing
-        Assert.assertTrue(driver.findElements(By.className("GPIT3C4CHT")).size() !=0);
-
         driver.findElement(By.cssSelector(".gwt-TextBox:nth-child(1)")).sendKeys("Lagier");
         driver.findElement(By.xpath("//button[text()='Chercher']")).click();
-
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         //make sure that more founded element contains "LAGIER"
-        Assert.assertThat(driver.findElement(By.className("GPIT3C4CHS")).getText(), containsString("LAGIER"));
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(By.className("GPIT3C4CHS"), "LAGIER"));
     }
 
     @Test
     public void customerEtitTest() {
         webSite.mainPage().loginToPage(installerLogin, installerPassword);
-
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-        driver.findElement(By.cssSelector(".GPIT3C4CF-:nth-child(1)")).click();
+        wait.until(visibilityOfElementLocated(By.cssSelector(".GPIT3C4CF-:nth-child(1)"))).click();
         //make sure that title is changed after "edit" link click
-        Assert.assertThat(driver.findElement(By.className("GPIT3C4CCV")).getText(), containsString("une installation"));
+        wait.until(textToBePresentInElementLocated(By.className("GPIT3C4CCV"), "une installation"));
         //make sure that "Lagier" data loaded
-        Assert.assertThat(driver.findElement(By.linkText("210225531")).getText(), containsString("210225531"));
+        wait.until(textToBePresentInElementLocated(By.linkText("210225531"), "210225531"));
     }
 
     @Test

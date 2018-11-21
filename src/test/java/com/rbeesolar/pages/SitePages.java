@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SitePages {
     WebDriver driver;
+
     public SitePages(WebDriver webDriver) {
         driver = webDriver;
     }
