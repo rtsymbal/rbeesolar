@@ -1,6 +1,6 @@
 package com.rbeesolar.tests;
 
-import com.rbeesolar.pages.SitePages;
+import com.rbeesolar.pages.BasePage;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 
 public class RbeesolarTest {
     WebDriver driver;
-    SitePages webSite;
+    BasePage webSite;
     WebDriverWait wait;
 
     private String installerLogin = "demo";
@@ -30,7 +30,7 @@ public class RbeesolarTest {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/Users/rtsymbal/Documents/Development/chromedriver.exe");
         driver = new ChromeDriver();
-        webSite = new SitePages(driver);
+        webSite = new BasePage(driver);
         wait = new WebDriverWait(driver, 30, 500);
         driver.get("https://work.pvmeter.com?locale=en_GB");
     }

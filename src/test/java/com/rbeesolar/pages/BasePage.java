@@ -2,10 +2,10 @@ package com.rbeesolar.pages;
 
 import org.openqa.selenium.WebDriver;
 
-public class SitePages {
+public class BasePage {
     WebDriver driver;
 
-    public SitePages(WebDriver webDriver) {
+    public BasePage(WebDriver webDriver) {
         driver = webDriver;
     }
 
